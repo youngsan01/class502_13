@@ -1,16 +1,18 @@
-package mamber;
+package member;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
+@Builder
 public class Member {
-    private long USER_NO;
-    private String USER_ID;
-    private String USER_PW;
-    private String USER_NM;
-    private String MOBILE;
-    private LocalDateTime REG_DT;
-    private LocalDateTime MOD_DT;
+    private long userNo;
+    private String userId;
+    private String userPw;
+    private String userNm;
+    private String mobile;
+    private LocalDateTime regDt;
+    private LocalDateTime modDt;
 }

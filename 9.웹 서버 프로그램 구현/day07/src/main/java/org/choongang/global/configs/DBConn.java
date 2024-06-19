@@ -1,4 +1,4 @@
-package choongang.global.configs;
+package org.choongang.global.configs;
 
 
 import org.apache.ibatis.io.Resources;
@@ -27,7 +27,7 @@ public class DBConn {
         return factory.openSession(autoCommit);
     }
 
-    public static SqlSession sqlSession() {
+    public static SqlSession getSession() {
         return getSession(true);
     }
 }

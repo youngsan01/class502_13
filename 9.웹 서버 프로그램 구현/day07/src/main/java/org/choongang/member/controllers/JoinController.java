@@ -1,4 +1,4 @@
-package choongang.member.controllers;
+package org.choongang.member.controllers;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

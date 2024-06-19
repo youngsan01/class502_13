@@ -1,4 +1,4 @@
-package choongang.member.entities;
+package org.choongang.member.entities;
 
 import lombok.Data;
 

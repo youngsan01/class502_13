@@ -1,3 +1,5 @@
+package exam01;
+
 import java.util.*;
 
 class Player {

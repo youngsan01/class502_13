@@ -1,6 +1,6 @@
-package choongang.member.mapper;
+package org.choongang.member.mapper;
 
-import choongang.member.entities.Member;
+import org.choongang.member.entities.Member;
 
 public interface MemberMapper {
     long exist(String email);
